@@ -2,11 +2,18 @@ name: Developer_Pull_Request
 on:
   pull_request:
     branches:
-      - 'XPNS-*'
+      - 'main'
 jobs:
   check-bats-version:
     runs-on: self-hosted
     steps:
-      - run: env
-      
+      - name: checkout
+        uses: actions/checkout@v4
+      - run: ls -l
+      - run: tail index.js
+
+
+
+
+
 #
