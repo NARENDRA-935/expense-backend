@@ -4,8 +4,7 @@ on:
     branches:
       - 'XPNS-*'
 jobs:
-  CI_steps:
-    uses: NARENDRA-935/Github-actions/.github/workflows/Developer_Branch_CI@main
-
+  CI_Steps:
+    uses: NARENDRA-935/Github-actions/.github/workflows/Developer_Branch_CI.yml@main
 
       
