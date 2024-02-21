@@ -1,5 +1,5 @@
 name: caller workflow
-on: [push,pull-request]
+on: [push,pull_request]
 jobs:
   build:
     uses: NARENDRA-935/Github-actions/.github/workflows/sample.yml@main
