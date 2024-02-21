@@ -5,6 +5,6 @@ on:
       - 'main'
 jobs:
   CI_steps:
-    #uses: NARENDRA-935/Github-actions/.github/workflows/sample.yml@main
+    uses: NARENDRA-935/Github-actions/.github/workflows/Developer_Pull_Request.yml@main
 
 
